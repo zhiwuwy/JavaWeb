@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/store-dao/store-dao.iml" filepath="$PROJECT_DIR$/store-dao/store-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-domain/store-domain.iml" filepath="$PROJECT_DIR$/store-domain/store-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-service/store-service.iml" filepath="$PROJECT_DIR$/store-service/store-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-view/store-view.iml" filepath="$PROJECT_DIR$/store-view/store-view.iml" />
+    </modules>
+  </component>
+</project>

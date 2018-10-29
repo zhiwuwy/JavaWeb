@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="store-view:war exploded">
+    <output-path>$PROJECT_DIR$/store-view/target/store-view</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="store-view" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="store-view-1.0.jar">
+            <element id="module-output" name="store-view" />
+          </element>
+          <element id="archive" name="store-service-1.0.jar">
+            <element id="module-output" name="store-service" />
+          </element>
+          <element id="archive" name="store-dao-1.0.jar">
+            <element id="module-output" name="store-dao" />
+          </element>
+          <element id="archive" name="store-domain-1.0.jar">
+            <element id="module-output" name="store-domain" />
+          </element>
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.4" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.10" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:6.0.6" />
+          <element id="library" level="project" name="Maven: javax.el:javax.el-api:3.0.0" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/store-view/target/store-view/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="store-view/web/Web" />
+    </root>
+  </artifact>
+</component>

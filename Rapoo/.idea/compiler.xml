@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1500" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="store-dao" />
+        <module name="store-domain" />
+        <module name="store-service" />
+        <module name="store-view" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="store-dao" target="1.8" />
+      <module name="store-domain" target="1.8" />
+      <module name="store-service" target="1.8" />
+      <module name="store-view" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

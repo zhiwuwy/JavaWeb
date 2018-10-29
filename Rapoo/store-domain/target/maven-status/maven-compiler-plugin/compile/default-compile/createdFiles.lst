@@ -1,0 +1,9 @@
+com\rapoo\store\Product.class
+com\rapoo\store\User.class
+com\rapoo\store\ProductDir.class
+com\rapoo\store\PageResult.class
+com\rapoo\store\ProductQuery.class
+com\rapoo\store\Cart.class
+com\rapoo\store\Query.class
+com\rapoo\store\ProductDirQuery.class
+com\rapoo\store\Commodity.class
